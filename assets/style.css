@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(106, 147, 155);
+}
+
+header {
+    color: black;
+    background-color: white;
+}
+
+header h1 {
+    font-size: 36px;
+    color: black;
+    display: inline-block;
+    margin-left: 12px;
+
+}
+header img {
+    height: 107px;
+    width: 93px;
+    margin-left: 91px;
+    display: block;
+    border-radius: 100px;
+}
+
+h2 {
+    margin: 20px;
+}
+p {
+    font-size: large;
+}
+
+header nav {
+    font-size: large;
+    display: flex;
+}
+nav {
+    justify-content: space-evenly;
+    margin-bottom: -34px;
+    display: flex;
+}
+.about-me {
+    margin-top: 20px;
+}
+
+section {
+    display: flex;
+}
+
+.work{
+    margin-top: 20px;
+    padding-top: 56px;
+}
+.contact-me {
+    margin-top: 20px;
+    padding-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    font-size: large;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 845px;
+    width: 650px;
+}
+div{
+
+}
+
+footer {
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 180px;
+    
+}
+@media screen and (max-width: 768px) {
+    main,
+    footer,
+    nav {
+      flex-direction: column;
+    }
+  }
